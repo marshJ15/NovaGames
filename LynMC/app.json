@@ -1,0 +1,7 @@
+{
+  "name": "onlinemc",
+  "description": "Play Minecraft in any browser!",
+  "repository": "https://github.com/cosmosc0des/play4fun",
+  "logo": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/2f/Dirt.png/revision/latest?cb=20220112085643",
+  "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-static" }]
+}
