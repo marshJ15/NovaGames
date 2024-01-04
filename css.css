@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    color: magenta;
+    font-family: monospace;
+    background-repeat: no-repeat
+    }
+    
+    
+    /* unvisited link */
+    a:link {
+      color: magenta;
+    }
+    
+    /* visited link */
+    a:visited {
+      color: magenta;
+    }
+    
+    /* mouse over link */
+    a:hover {
+      color: pink;
+    }
+    
+    /* selected link */
+    a:active {
+      color: pink;
+    }
+    
