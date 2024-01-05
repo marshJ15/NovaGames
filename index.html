@@ -2,7 +2,7 @@
 <html class="staticrypt-html">
     <head>
         <meta charset="utf-8" />
-        <title>Password Protected Page</title>
+        <title>Protected Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <!-- do not cache this page -->
@@ -154,7 +154,7 @@
             <div class="staticrypt-page">
                 <div class="staticrypt-form">
                     <div class="staticrypt-instructions">
-                        <p class="staticrypt-title">Password Protected Page</p>
+                        <p class="staticrypt-title">Protected Page</p>
                         <p><p><em><strong>Join https://dsc.gg/lyndev for the current password!</strong></em></p>
 </p>
                     </div>
@@ -166,13 +166,13 @@
                             id="staticrypt-password"
                             type="password"
                             name="password"
-                            placeholder="Enter Password..."
+                            placeholder="Password"
                             autofocus
                         />
 
                         <label id="staticrypt-remember-label" class="staticrypt-remember hidden">
                             <input id="staticrypt-remember" type="checkbox" name="remember" />
-                            Remember Me
+                            Remember me
                         </label>
 
                         <input type="submit" class="staticrypt-decrypt-button" value="DECRYPT" />
@@ -771,7 +771,7 @@ exports.init = init;
         ;
             const templateError = "template_error",
                 isRememberEnabled = true,
-                staticryptConfig = {"staticryptEncryptedMsgUniqueVariableName":"821e1214d3142a7a7c760a91770dc2ad845468b52f788fb1b5b0b76fdb31fc30e9715f140971a801a7c90abcaf9c2c79c2e0336868abcaaa91f98db509f27c5bb0d91d6dd5b1b1776d72bad5e2eb62bb77100c11789938e2549eecd7a167a4cb2446dccc7c5865755119ec289f2771b0a1a5385bc42523590561a82a51150e74bd05c53b8e8df0637f106070f1621e83bdd99c35a78c055df03c086270433b33d831edf68cc92bdacd58313062948d4e906c81f6eac8554a5ff74f44a7ea6ff763b56c2a5c44dc1f8a446d9d7e0980bc3a894a3a6d419824fcc63447d169937998ccea1cdd6b3ea778f73c4311d4617bb0a9fa18665cdb149ff678dd6b4141ea038082a54d8a3cfc654401c8b13e2daf18c6a89bb4264f275cc25fbe8e320938d3da61cf244d3e623dde05bf40d11760f2e324e7117f35d2b892f29f94f3b6d7e4a30187f26ec31e5f1fab6f5782f9e00f209e7464e7cf2a596faf26832b6c53df88bc3a0dea9fe464a037c6a760d2c20216ff9c5683229276f148d2da92a0c22fcf00abef59fe54c5f08a8c84ac165631a2673206fb2e8c06e69379db6c48358a8260750c9f5b9a7b2ec6d6b0fe8d79f50b6859f9f7cc60406bcd61da6b041dbdb0b60f4811bba2c93b8ddcec20c8e2","isRememberEnabled":true,"rememberDurationInDays":"0","staticryptSaltUniqueVariableName":"0b0d029563eee47e1cf7d88a11f806b7"};
+                staticryptConfig = {"staticryptEncryptedMsgUniqueVariableName":"6997eb85b89e56afa3670bc6dc62203af505be99413ab367cb851e2f13c31f74813e21256e36503344aa3fd47e91d7e16d9e55b02c33bd41e0b9826f7ca44dfd4f73aff9ac32b19fd0684c51d6141cb1f841ef7724528958263e6d47cf08d181c4d84ff0765bd12d9a4d4be6e99ec6a2514737bd574eb91bcbadc542a82cc81535c4bb4ecee2438472cf7e2c43a1f15fd0d48fa89543d0dda9aa5ee834fb4f5696024925dbcb22c49957dca50b2ce0e0482b005c56c1f9c1bc5e0c722d7311bff3724a18c37e3ea638651e95a98790c008f7180bc2c65749b2395b108d43946508c46be243612d73ff269445d64b0305022eac5e6b21a74063a9fad791c190267c7f0606fb0a162b951c06857faa2b1632999a4c4ddacd619fea7ff45014bad64e9198af7c615b344022933d7d9d6b7d2469ed83caa95b2b08d9ed94dd7e856e69d0f839ec87e4338666a1cd6cc5c7ad609fd37aeda2665e6fd4dba6e64f613031eae1896c60f4c2dde5a09fa9370291a7f0e5a0a9e0f689e5d56b0e619a4e0ed3617d15def2efc780c540ceae3c5a2fa65e755a08ce0485915331a89e515e538a83f367cd9bc215f53f01817e61d96f37af585bf429c24f9a6833ac865e14ab9f3ff59ddba75a60d7f567d69afd8d727e3c161eda3921572b7b4aa1a6992ddb4b8ff0bac0bbee52d96821bc82d0a39effc2775b88771f0f8cfddaa8b86db13e","isRememberEnabled":true,"rememberDurationInDays":0,"staticryptSaltUniqueVariableName":"f4af14114d604c47e6cd7004ac9e34ba"};
 
             // you can edit these values to customize some of the behavior of StatiCrypt
             const templateConfig = {

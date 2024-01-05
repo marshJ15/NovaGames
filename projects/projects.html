@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html class="sl-theme-dark" lang="en">
+  <head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js "></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.9.0/cdn/themes/dark.css" />
+     <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.9.0/cdn/shoelace-autoloader.js"></script>
+
+    <script src="/js/all.js"></script>
+    <script src="/js/games.js"></script>
+    <script src="/js/search.js"></script>
+    <script src="/js/main.js"></script>
+<script src="/js/themes.js"></script>
+    <script src="/js/cookie.js"></script>
+
+
+    <link rel="stylesheet" href="/css.css" />
+
+    <title>N0VA</title>
+    <link rel="icon" href="/favicon.ico" />
+    <meta
+      name="keywords"
+      content="front-end web developer, unblocked, games, google sites, unblocked games mom, ublocked, code, coding, programmer, development, javascript, jquery, bootstrap, sass, less, git, gaming, internet, website, best, site, cool, free games"
+    />
+    <meta property="og:title" content="N0VA - Very Cool" />
+    <meta property="og:site_name" content="N0VA" />
+    <meta
+      property="og:description"
+      content="Welcome to N0VA."
+    />
+    <meta
+      name="description"
+      content="Welcome to N0VA"
+    />
+    <meta name="author" content="cosmosc0des" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <!-- toastify -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(() => {
+          const container = document.querySelector("alerts");
+          const safemodealert = container.querySelector(`sl-alert.safemodeinfo`);
+          const tooltip = document.querySelector('.manual-tooltip');
+          if (Math.random() < 0.33) {
+            safemodealert.toast();
+          } else if(Math.random() < 0.5) {
+            tooltip.open = !tooltip.open;
+            setTimeout(() => {
+              tooltip.open = !tooltip.open;
+            }, 5000)
+          }
+        }, 500);
+      });
+    </script>
+  </head>
+  <body>
+
+    <main>
+      <input class="hiddenUpload" type="file" accept=".save" hidden />
+
+
+      <input type="text" id="gamesearch" placeholder="Type here to search.." />
+      <div class="samerow">
+        <button id="random" onclick="selectRandomGame()">
+          Play a random game!
+        </button>
+        <button id="recommend" onclick="recommendedGames()">
+          Click to view recommended games!
+        </button>
+      </div>
+
+      <h2>Pinned Games</h2>
+      <p id="pinnedmessage">pin some games for things to show up here!</p>
+      <div id="pinned"></div>
+      
+
+      <h2>All Games</h2>
+      <div id="games">
+        <p id="message">Games loading..</p>
+      </div>
+
+    </main>
+  </body>
+</html>
