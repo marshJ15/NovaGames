@@ -6,7 +6,7 @@ YOU MAY NEED TO DO THIS AT HOME AND SAVE THE LINKS IF ANYTHING IS BLOCKED
 1. Make a GitHub account (https://github.com)
 2. Go to https://github.com/cosmosc0des/N0VA and click "fork"
 3. Go to https://codesandbox.io and click "deploy from github repo"
-4. Copy the link in the top bar.
+4. Your link will be in the top bar on the right side!
 5. Repeat whenever!
 
 YOU NOW  HAVE INFINITE LINKS!
