@@ -1,3 +1,24 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+@keyframes loadInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+* {
+  transition-duration: 0.5s;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  align-content: center;
+  text-align: center;
+  font-family: 'Prompt', sans-serif;
+  color: var(--textcolor);
+}
 body {
     background-color: black;
     color: magenta;
@@ -25,37 +46,6 @@ body {
     a:active {
       color: pink;
     }
-    @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
-@keyframes loadInAnimation {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 100;
-  }
-}
-
-* {
-  transition-duration: 0.5s;
-  outline: none;
-  border: none;
-  box-sizing: border-box;
-  align-content: center;
-  text-align: center;
-  font-family: 'Prompt', sans-serif;
-  color: var(--textcolor);
-}
-body {
-  margin: 0;
-  padding: 0;
-  background: var(--bg);
-  color: var(--textcolor);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-header,
 footer {
   background-color: var(--uibg);
   display: flex;
